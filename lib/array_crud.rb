@@ -28,7 +28,8 @@ def retrieve_element_from_index(array, index_number)
 end
 
 def retrieve_first_element_from_array(array)
-  return array.index(0)
+  num =  array.index(0)
+  return num
 end
 
 def retrieve_last_element_from_array(array)
